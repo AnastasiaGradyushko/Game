@@ -1,0 +1,50 @@
+/* цикл ручной расстановки кораблей */
+        /*while (true)
+        {
+            map_show(map,mask);
+            ship_show(x,y,dir,size_ship);
+
+            int temp_x = x;
+            int temp_y = y;
+            int temp_dir = dir;
+
+
+            ch = getch();
+
+            switch (ch)
+            {
+                case 100 : x++;
+                break;
+                case 115 : y++;
+                break;
+                case 97: x--;
+                break;
+                case 119: y--;
+                break;
+                case 114: dir = ! dir;
+                break;
+                case 13:
+                {
+                    if (set_ship(map, x,y,dir,size_ship))
+                    {
+                        x = 0;
+                        y = 0;
+                        dir = 0 ;
+                        size_ship--;
+
+                    }
+                }
+                break;
+
+            }
+
+            if (!ship_in_map(x,y,dir,size_ship))
+            {
+                x = temp_x ;
+                y = temp_y ;
+                dir = temp_dir ;
+            }
+
+            system("cls");
+
+        }*/
